@@ -5,26 +5,27 @@
     <meta charset='utf-8'>
     <title>
         {% if page.title %}
-            {{ page.title }}
-        {% else %} 
-            {{ site.name }} &mdash; {{ site.description }}
+        {{ page.title }}
+        {% else %}
+        {{ site.name }} &mdash; {{ site.description }}
         {% endif %}
     </title>
 
     {% if site.highlighter %}
-        <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
+    <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
     {% endif %}
-    
+
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 </head>
 
-<body>
+<body class="markdown-body">
     {% include header.html %}
     <div style="margin-left:4em; margin-right: 40em">
-    {{ content }}
+        {{ content }}
     </div>
-<hr>
-    <p style="position: fixed; bottom: 1.5em; right: 1.5em;font-size: larger;"><small> <i>Build by HAHAws and  <a href="https://github.com/hahaws">github</a></i> </small></p>
+    <p style="position: fixed; bottom: 1.5em; right: 1.5em;font-size: larger;"><small> <i>Build by HAHAws and <a
+                    href="https://github.com/hahaws">github</a></i> </small></p>
 </body>
+
 </html>
