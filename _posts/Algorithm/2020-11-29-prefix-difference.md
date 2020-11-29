@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 前缀和和差分
+title: 前缀和与差分
 tags: Algorithm
 ---
 
