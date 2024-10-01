@@ -1,0 +1,10 @@
+
+[[entries]]
+title = "All Posts"
+
+  [entries.post_list]
+  section = "posts"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
