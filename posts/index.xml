@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Scotws's Blogs</title><link>https://example.org/posts/</link><description>Recent content in Posts on Scotws's Blogs</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Language Tests</title><link>https://example.org/posts/2020-07-08-language-tests/</link><pubDate>Wed, 08 Jul 2020 00:00:00 +0800</pubDate><guid>https://example.org/posts/2020-07-08-language-tests/</guid><description>&lt;p>Note: I took this test post from &lt;a href="https://github.com/huangyz0918/moving">moving&lt;/a>, which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.&lt;/p>
+&lt;h3 id="1-日本語テスト">1. 日本語テスト&lt;/h3>
+&lt;p>This is a Japanese test post to show you how japanese is displayed.&lt;/p>
+&lt;p>私は昨日ついにその助力家というのの上よりするたなけれ。
+最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
+がたを知っないはずも同時に九月をいよいよたありた。&lt;/p>
+&lt;p>もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p>
+&lt;blockquote>
+&lt;p>それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p>
+&lt;/blockquote>
+&lt;p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p>
+&lt;p>From &lt;a href="http://lipsum.sugutsukaeru.jp/index.cgi">すぐ使えるダミーテキスト - 日本語 Lorem ipsum.&lt;/a>&lt;/p>
+&lt;h3 id="2-繁体中文测试">2. 繁体中文测试&lt;/h3>
+&lt;p>This is a chinese test post to show you how chinese is displayed.&lt;/p></description></item><item><title>very very very long title and very very very short content</title><link>https://example.org/posts/2020-07-08-very-very-very-long-title-and-very-very-very-short-content/</link><pubDate>Wed, 08 Jul 2020 00:00:00 +0800</pubDate><guid>https://example.org/posts/2020-07-08-very-very-very-long-title-and-very-very-very-short-content/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.&lt;/p></description></item><item><title>overview</title><link>https://example.org/posts/2020-07-07-overview-post/</link><pubDate>Tue, 07 Jul 2020 00:00:00 +0800</pubDate><guid>https://example.org/posts/2020-07-07-overview-post/</guid><description>&lt;p>Lorem ipsum&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p>
+&lt;h1 id="sample-heading-1">Sample heading 1&lt;/h1>
+&lt;h2 id="sample-heading-2">Sample heading 2&lt;/h2>
+&lt;h3 id="sample-heading-3">Sample heading 3&lt;/h3>
+&lt;h4 id="sample-heading-4">Sample heading 4&lt;/h4>
+&lt;h5 id="sample-heading-5">Sample heading 5&lt;/h5>
+&lt;h6 id="sample-heading-6">Sample heading 6&lt;/h6>
+&lt;p>Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p></description></item></channel></rss>
