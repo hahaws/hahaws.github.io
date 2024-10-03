@@ -51,6 +51,8 @@ Github进入创建的仓库，进入Settings -> Pages。设置Branch为yml文件
 
 5、本地修改推送后，可以看到自动化流水线跑起来了，并且跑完之后内容刷新到了指定的分支上，master分支内容为最原始的内容
 
+6、也可以使用Github的CodeSpaces功能快速编辑，这样就不再需要将仓库克隆到本地后再编辑了，更加方便
+
 ## 七、References
 
 [如何使用Github Pages + Hugo搭建个人博客](https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo/)
