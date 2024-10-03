@@ -4,7 +4,7 @@ title = "Scotws's Blogs"
 
 [module]
   [module.hugoVersion]
-    extended=true
+    extended=false
     min = "0.41.0"
 
 [markup]
