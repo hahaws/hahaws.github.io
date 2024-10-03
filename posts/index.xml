@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Scotws's Blogs</title><link>https://example.org/posts/</link><description>Recent content in Posts on Scotws's Blogs</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Language Tests</title><link>https://example.org/posts/2020-07-08-language-tests/</link><pubDate>Wed, 08 Jul 2020 00:00:00 +0800</pubDate><guid>https://example.org/posts/2020-07-08-language-tests/</guid><description>&lt;p>Note: I took this test post from &lt;a href="https://github.com/huangyz0918/moving">moving&lt;/a>, which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Scotws's Blogs</title><link>https://example.org/posts/</link><description>Recent content in Posts on Scotws's Blogs</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Aug 2022 22:28:10 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Tex</title><link>https://example.org/posts/test-tex/</link><pubDate>Fri, 26 Aug 2022 22:28:10 +0800</pubDate><guid>https://example.org/posts/test-tex/</guid><description>&lt;p>Inline math: &lt;span>
+\(\varphi\)
+&lt;/span>
+&lt;/p>
+&lt;p>Displayed math:
+&lt;span>
+$$\begin{aligned}
+\varphi &amp;amp;\Rightarrow \psi \\
+\varnothing &amp;amp;\rightarrow A
+\end{aligned}$$
+&lt;/span>
+&lt;/p>
+&lt;p>$$
+R_{\mu \nu} - {1 \over 2}g_{\mu \nu},R + g_{\mu \nu} \Lambda
+= {8 \pi G \over c^4} T_{\mu \nu}
+$$&lt;/p>
+&lt;p>The equation $$(x_i \cdot x_j)^2$$ is called kernel function and is often written as $$k(x_i, x_j)$$.&lt;/p>
+&lt;p>$$
+\arg\max_\alpha \sum_j \alpha_j - \frac{1}{2} \sum_{j,k} \alpha_j, \alpha_k y_j y_k (x_j \cdot x_k)
+$$&lt;/p>
+&lt;p>$$
+f(X) = \frac{1}{(2\pi)^{\frac{n}{2} |\Sigma|^{\frac{1}{2}}}} e^{ - \frac{1}{2} (X - \mu)^T \Sigma^{-1} (X - \mu)}
+$$&lt;/p></description></item><item><title>Language Tests</title><link>https://example.org/posts/2020-07-08-language-tests/</link><pubDate>Wed, 08 Jul 2020 00:00:00 +0800</pubDate><guid>https://example.org/posts/2020-07-08-language-tests/</guid><description>&lt;p>Note: I took this test post from &lt;a href="https://github.com/huangyz0918/moving">moving&lt;/a>, which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.&lt;/p>
 &lt;h3 id="1-日本語テスト">1. 日本語テスト&lt;/h3>
 &lt;p>This is a Japanese test post to show you how japanese is displayed.&lt;/p>
 &lt;p>私は昨日ついにその助力家というのの上よりするたなけれ。
