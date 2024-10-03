@@ -1,8 +1,43 @@
 <!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="一、创建一个Github Pages类型的Repo
+在Github上创建一个新的Repository，仓库名称为xxx.github.io，其中xxx为自定义名称。仓库设置为Public，并且默认添加一个README文件。
+仓库创建好后通过git clone下到本地备用
 二、本地下载Hugo
+到Hugo官网上通过指导下载Hugo https://gohugo.io/installation/
+Windows通过winget下载更方便
+winget install Hugo.Hugo.Extended
 三、挑选并自定义Hugo主题
+到Hugo主题网站上挑选喜欢的主题 https://themes.gohugo.io/
+大部分主题会在主页上写上安装使用方法，小部分简约型的主题安装比较简单，只需要将你喜欢的主题的Github仓库clone到本地，并覆盖之前新建的Github.io的仓库目录
 四、本地运行查看效果
+进入仓库目录，可以执行hugo编译静态网站，并通过hugo server在本地上查看生效效果。
 五、推送Github仓库
+本地准备好之后，可以直接推送到github的远端分支上
 六、使用Github Actions提交后自动发布
-七、References"><title>使用Github Pages和Hugo搭建个人博客
-</title><link rel="shortcut icon" type=image/x-icon href=/><link rel=stylesheet href=/css/main.3534d0025acc878b9bbe7cdef732b2f92a365629f0f05abaae82ce0f3766fafdc793c1bfd6358fc24558e2ff501c6ae151e8e866dec1f11d37f4ecb9178d502f.css integrity="sha512-NTTQAlrMh4ubvnze9zKy+So2Vinw8Fq6roLODzdm+v3Hk8G/1jWPwkVY4v9QHGrhUejoZt7B8R039Oy5F41QLw=="></head><body a=auto><main class=page-content aria-label=Content><div class=w><a href=/>..</a><article><h1>使用Github Pages和Hugo搭建个人博客</h1><aside class=toc><nav id=TableOfContents><ul><li><a href=#一创建一个github-pages类型的repo>一、创建一个Github Pages类型的Repo</a></li><li><a href=#二本地下载hugo>二、本地下载Hugo</a></li><li><a href=#三挑选并自定义hugo主题>三、挑选并自定义Hugo主题</a></li><li><a href=#四本地运行查看效果>四、本地运行查看效果</a></li><li><a href=#五推送github仓库>五、推送Github仓库</a></li><li><a href=#六使用github-actions提交后自动发布>六、使用Github Actions提交后自动发布</a></li><li><a href=#七references>七、References</a></li></ul></nav></aside><h2 id=一创建一个github-pages类型的repo>一、创建一个Github Pages类型的Repo</h2><h2 id=二本地下载hugo>二、本地下载Hugo</h2><h2 id=三挑选并自定义hugo主题>三、挑选并自定义Hugo主题</h2><h2 id=四本地运行查看效果>四、本地运行查看效果</h2><h2 id=五推送github仓库>五、推送Github仓库</h2><h2 id=六使用github-actions提交后自动发布>六、使用Github Actions提交后自动发布</h2><h2 id=七references>七、References</h2></article><a href=#top>top</a></div></main></body></html>
+1、生成Person access tokens
+Github进入Settings -> Developer Settings -> Personal acces tokens -> Token(classic)
+点击Generate new token创建一个新的token，Expiration选择No expiration，scopes勾选上repo、admin:repo_hook
+复制保存新生成的token
+2、生成Actions secrets
+Github进入刚创建的仓库，点击Settings -> Security -> Secrets and variables -> Actions
+点击New secret，名称自取，Secret粘贴生成的Personal access tokens
+3、配置actions文件
+在仓库根目录下创建文件夹.github以及子文件夹workflows，新建yml格式文件，名称自取，详细内容可以参考官网https://gohugo.io/hosting-and-deployment/hosting-on-github/
+在yml文件中执行需要发布的文件夹，一般是public，以及需要发布到哪个分支
+4、Github pages设置
+Github进入创建的仓库，进入Settings -> Pages。设置Branch为yml文件里指定的分支
+5、本地修改推送后，可以看到自动化流水线跑起来了，并且跑完之后内容刷新到了指定的分支上，master分支内容为最原始的内容
+七、References
+如何使用Github Pages + Hugo搭建个人博客"><title>使用Github Pages和Hugo搭建个人博客
+</title><link rel="shortcut icon" type=image/x-icon href=/><link rel=stylesheet href=/css/main.3534d0025acc878b9bbe7cdef732b2f92a365629f0f05abaae82ce0f3766fafdc793c1bfd6358fc24558e2ff501c6ae151e8e866dec1f11d37f4ecb9178d502f.css integrity="sha512-NTTQAlrMh4ubvnze9zKy+So2Vinw8Fq6roLODzdm+v3Hk8G/1jWPwkVY4v9QHGrhUejoZt7B8R039Oy5F41QLw=="></head><body a=auto><main class=page-content aria-label=Content><div class=w><a href=/>..</a><article><h1>使用Github Pages和Hugo搭建个人博客</h1><aside class=toc><nav id=TableOfContents><ul><li><a href=#一创建一个github-pages类型的repo>一、创建一个Github Pages类型的Repo</a></li><li><a href=#二本地下载hugo>二、本地下载Hugo</a></li><li><a href=#三挑选并自定义hugo主题>三、挑选并自定义Hugo主题</a></li><li><a href=#四本地运行查看效果>四、本地运行查看效果</a></li><li><a href=#五推送github仓库>五、推送Github仓库</a></li><li><a href=#六使用github-actions提交后自动发布>六、使用Github Actions提交后自动发布</a></li><li><a href=#七references>七、References</a></li></ul></nav></aside><h2 id=一创建一个github-pages类型的repo>一、创建一个Github Pages类型的Repo</h2><p>在Github上创建一个新的Repository，仓库名称为<code>xxx.github.io</code>，其中xxx为自定义名称。仓库设置为Public，并且默认添加一个README文件。
+仓库创建好后通过git clone下到本地备用</p><h2 id=二本地下载hugo>二、本地下载Hugo</h2><p>到Hugo官网上通过指导下载Hugo <a href=https://gohugo.io/installation/>https://gohugo.io/installation/</a>
+Windows通过winget下载更方便</p><pre tabindex=0><code>winget install Hugo.Hugo.Extended
+</code></pre><h2 id=三挑选并自定义hugo主题>三、挑选并自定义Hugo主题</h2><p>到Hugo主题网站上挑选喜欢的主题 <a href=https://themes.gohugo.io/>https://themes.gohugo.io/</a>
+大部分主题会在主页上写上安装使用方法，小部分简约型的主题安装比较简单，只需要将你喜欢的主题的Github仓库clone到本地，并覆盖之前新建的Github.io的仓库目录</p><h2 id=四本地运行查看效果>四、本地运行查看效果</h2><p>进入仓库目录，可以执行<code>hugo</code>编译静态网站，并通过<code>hugo server</code>在本地上查看生效效果。</p><h2 id=五推送github仓库>五、推送Github仓库</h2><p>本地准备好之后，可以直接推送到github的远端分支上</p><h2 id=六使用github-actions提交后自动发布>六、使用Github Actions提交后自动发布</h2><p>1、生成Person access tokens
+Github进入Settings -> Developer Settings -> Personal acces tokens -> Token(classic)
+点击Generate new token创建一个新的token，Expiration选择<code>No expiration</code>，scopes勾选上<code>repo</code>、<code>admin:repo_hook</code>
+复制保存新生成的token</p><p>2、生成Actions secrets
+Github进入刚创建的仓库，点击Settings -> Security -> Secrets and variables -> Actions
+点击New secret，名称自取，Secret粘贴生成的Personal access tokens</p><p>3、配置actions文件
+在仓库根目录下创建文件夹<code>.github</code>以及子文件夹<code>workflows</code>，新建yml格式文件，名称自取，详细内容可以参考官网https://gohugo.io/hosting-and-deployment/hosting-on-github/
+在yml文件中执行需要发布的文件夹，一般是public，以及需要发布到哪个分支</p><p>4、Github pages设置
+Github进入创建的仓库，进入Settings -> Pages。设置Branch为yml文件里指定的分支</p><p>5、本地修改推送后，可以看到自动化流水线跑起来了，并且跑完之后内容刷新到了指定的分支上，master分支内容为最原始的内容</p><h2 id=七references>七、References</h2><p><a href=https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo/>如何使用Github Pages + Hugo搭建个人博客</a></p></article><a href=#top>top</a></div></main></body></html>
