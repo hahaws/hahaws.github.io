@@ -20,4 +20,4 @@ test&lt;/p></description></item><item><title>overview</title><link>https://examp
 &lt;h4 id="sample-heading-4">Sample heading 4&lt;/h4>
 &lt;h5 id="sample-heading-5">Sample heading 5&lt;/h5>
 &lt;h6 id="sample-heading-6">Sample heading 6&lt;/h6>
-&lt;p>Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p></description></item></channel></rss>
+&lt;p>Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p></description></item><item><title>使用Github Pages和Hugo搭建个人博客</title><link>https://example.org/posts/2024-10-03-github-page-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/2024-10-03-github-page-hugo/</guid><description>&lt;h1 id="使用github-pages和hugo搭建个人博客">使用Github Pages和Hugo搭建个人博客&lt;/h1></description></item></channel></rss>
